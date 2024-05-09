@@ -46,11 +46,32 @@
 
 /* Main */
 #main {
-    height: 500px; 
-    background-color: #1E90FF; 
     display: flex;
+    justify-content: center; 
+}
+
+#aside-left,
+#aside-right {
+    width: 220px;
+    height: 500px;
+    background-color: #6495ED; 
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center; 
     justify-content: center;
+    padding: 10px;
+}
+
+#article {
+    width: 500px;
+    background-color: #1E90FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+    padding: 10px;
 }
 
 /* pie de página */

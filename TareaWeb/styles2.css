@@ -47,25 +47,20 @@
     display: flex;
 }
 
-#article {
-    flex: 3; /* Ajusta el tamaño relativo del artículo */
-    background-color: #00008B; /* Puedes cambiar el color */
-    padding: 10px; /* Espaciado interno */
-}
-
 #aside {
-    flex: 1; /* Ajusta el tamaño relativo del aside */
-    background-color: #0000CD; /* Puedes cambiar el color */
+    flex: 1; 
+    background-color: #0000CD; 
     padding: 10px;
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center; /* Espaciado interno */
+    justify-content: center; 
 }
+
 #article {
     width: 450px;
     height: 400px; 
-    background-color: #00BFFF;
+    background-color: #00008B;
     text-align: center;
     display: flex;
     align-items: center;
