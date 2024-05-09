@@ -13,6 +13,26 @@
     justify-content: center;
 }
 
+#banner {
+    width: 500px;
+    height: 250px;
+    background-color: #0000FF;
+    display: flex;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 251px;
+    height: 250px;
+    background-color: #4169E1;
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+
 /* navegación */
 #navbar {
     height: 50px; 
@@ -24,8 +44,29 @@
 
 /* Main */
 #main {
+    display: flex;
+}
+
+#article {
+    flex: 3; /* Ajusta el tamaño relativo del artículo */
+    background-color: #00008B; /* Puedes cambiar el color */
+    padding: 10px; /* Espaciado interno */
+}
+
+#aside {
+    flex: 1; /* Ajusta el tamaño relativo del aside */
+    background-color: #0000CD; /* Puedes cambiar el color */
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Espaciado interno */
+}
+#article {
+    width: 450px;
     height: 400px; 
-    background-color: #7B68EE; 
+    background-color: #00BFFF;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
