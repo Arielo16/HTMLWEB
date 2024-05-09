@@ -1,0 +1,40 @@
+#container {
+    width: 1000px; 
+    margin: 0 auto; 
+}
+
+/* navegación */
+#navbar {
+    height: 100px; 
+    background-color: #B0E0E6; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* encabezado */
+#header {
+    height: 300px;
+    background-color: #87CEEB; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main */
+#main {
+    height: 500px; 
+    background-color: #1E90FF; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* pie de página */
+#footer {
+    height: 50px; 
+    background-color: #00BFFF; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
